@@ -5,7 +5,7 @@
 假设某病人每天都来诊所告诉医生她感觉如何。医生认为病人的健康状况是一个离散的马尔科夫链（Markov chain）。有两种状态"Healthy"和"Fever"，但是医生没法直接观察到，也就是说这两个状态对医生来说是隐藏(hidden)的。每天，病人会基于自身健康状况，以某个几率告诉医生他的感觉：可能是"normal"、"cold"或"dizzy"三者之一，这些事观察值。这里的整个系统可以看做是隐马尔科夫模型（HMM）。
 
 '''
-from numpy import *
+from numpy import   *
 class dataClass:
     def __init__(self):
         #身体两种状态，健康和有病
